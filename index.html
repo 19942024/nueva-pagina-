@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Analista de Datos</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <section id="certificaciones" class="section-container">
+        <h2><i class="fa-solid fa-award"></i> Certificaciones Profesionales</h2>
+        <p class="section-subtitle">Mis credenciales y competencias validadas por líderes de la industria.</p>
+
+        <div id="cert-filters" class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="microsoft">Microsoft</button>
+            <button class="filter-btn" data-filter="google">Google</button>
+            <button class="filter-btn" data-filter="aws">AWS</button>
+        </div>
+
+        <div class="cert-grid">
+            <div class="cert-card" data-category="microsoft" data-aos="fade-up">
+                <img src="https://via.placeholder.com/100x40.png?text=Microsoft" alt="Logo Microsoft" class="cert-logo">
+                <h3>Power BI Data Analyst Associate</h3>
+                <div class="cert-info">
+                    <p><i class="fa-solid fa-calendar-check"></i> <strong>Obtención:</strong> Ene 2024</p>
+                    <p><i class="fa-solid fa-calendar-times"></i> <strong>Vence:</strong> Ene 2026</p>
+                </div>
+                <div class="cert-level advanced">Avanzado</div>
+                <p class="cert-tech"><strong>Tecnologías:</strong> Power BI, DAX, Power Query, SQL</p>
+                <a href="#verificar" class="verify-link">Verificar Credencial <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="cert-card" data-category="google" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://via.placeholder.com/100x40.png?text=Google" alt="Logo Google" class="cert-logo">
+                <h3>Google Data Analytics Professional</h3>
+                <div class="cert-info">
+                    <p><i class="fa-solid fa-calendar-check"></i> <strong>Obtención:</strong> Jun 2023</p>
+                    <p><i class="fa-solid fa-calendar-times"></i> <strong>Vence:</strong> No Aplica</p>
+                </div>
+                <div class="cert-level intermediate">Intermedio</div>
+                <p class="cert-tech"><strong>Tecnologías:</strong> SQL, R, Tableau, Spreadsheets</p>
+                <a href="#verificar" class="verify-link">Verificar Credencial <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="cert-card" data-category="aws" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://via.placeholder.com/100x40.png?text=AWS" alt="Logo AWS" class="cert-logo">
+                <h3>AWS Certified Data Analyst - Specialty</h3>
+                <div class="cert-info">
+                    <p><i class="fa-solid fa-calendar-check"></i> <strong>Obtención:</strong> Sep 2024</p>
+                    <p><i class="fa-solid fa-calendar-times"></i> <strong>Vence:</strong> Sep 2027</p>
+                </div>
+                <div class="cert-level advanced">Avanzado</div>
+                <p class="cert-tech"><strong>Tecnologías:</strong> QuickSight, Redshift, S3, Athena</p>
+                <a href="#verificar" class="verify-link">Verificar Credencial <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="powerbi-projects" class="section-container">
+        <h2><i class="fa-solid fa-chart-simple"></i> Proyectos de Power BI</h2>
+        <p class="section-subtitle">Dashboards interactivos que convierten datos complejos en decisiones estratégicas.</p>
+        
+        <div id="project-filters" class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="finanzas">Finanzas</button>
+            <button class="filter-btn" data-filter="retail">Retail</button>
+            <button class="filter-btn" data-filter="salud">Salud</button>
+        </div>
+
+        <div class="project-gallery">
+            <div class="project-card" data-category="finanzas" data-aos="fade-up">
+                <div class="project-preview">
+                    <video src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" autoplay loop muted playsinline></video>
+                    <div class="project-overlay">
+                        <h4>Análisis de Rentabilidad</h4>
+                        <p><strong>KPIs:</strong> Margen Bruto, ROI, EBITDA.</p>
+                        <p><strong>Fuentes:</strong> ERP, SQL Server.</p>
+                        <a href="#proyecto-completo" class="project-link">Ver Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>Análisis Financiero para Empresa X</h5>
+                    <span class="project-tag">Finanzas</span>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="retail" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-preview">
+                     <video src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4" autoplay loop muted playsinline></video>
+                    <div class="project-overlay">
+                        <h4>Optimización de Inventario</h4>
+                        <p><strong>KPIs:</strong> Rotación de stock, Días de inventario.</p>
+                        <p><strong>Fuentes:</strong> CSV, Excel, SAP.</p>
+                        <a href="#proyecto-completo" class="project-link">Ver Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h5>Dashboard de Gestión de Stock</h5>
+                    <span class="project-tag">Retail</span>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <section id="master-projects" class="section-container">
+        <h2><i class="fa-solid fa-graduation-cap"></i> Proyectos Académicos del Máster</h2>
+        <p class="section-subtitle">Aplicación práctica de metodologías y herramientas avanzadas en casos de estudio.</p>
+
+        <div class="academic-accordion">
+            <div class="accordion-item" data-aos="fade-up">
+                <button class="accordion-header">
+                    <span><strong>Análisis Predictivo de Fuga de Clientes</strong> | Machine Learning</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p><strong>Problema:</strong> Identificar proactivamente a los clientes con alta probabilidad de abandonar el servicio en una empresa de telecomunicaciones.</p>
+                    <p><strong>Metodología:</strong> Se aplicó un modelo de clasificación (Random Forest) entrenado con datos históricos de clientes. Se realizó ingeniería de características y validación cruzada.</p>
+                    <p><strong>Herramientas:</strong> Python (Pandas, Scikit-learn), Jupyter Notebook, Matplotlib.</p>
+                    <p><strong>Resultados:</strong> El modelo alcanzó una precisión del 85% en la predicción de fuga, permitiendo a la empresa diseñar campañas de retención dirigidas.</p>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i> Código Fuente</a>
+                        <a href="#informe"><i class="fa-solid fa-file-pdf"></i> Informe Final</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                <button class="accordion-header">
+                    <span><strong>Segmentación de Mercado con Clustering</strong> | Minería de Datos</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p><strong>Problema:</strong> Agrupar a los clientes de un e-commerce en segmentos distintos según su comportamiento de compra para personalizar las campañas de marketing.</p>
+                    <p><strong>Metodología:</strong> Se utilizó el algoritmo K-Means para agrupar a los clientes basado en variables como frecuencia de compra, valor monetario y categorías de productos.</p>
+                    <p><strong>Herramientas:</strong> R, RStudio, ggplot2.</p>
+                    <p><strong>Resultados:</strong> Se identificaron 4 segmentos de clientes clave (Leales, Ocasionales, de Alto Valor, etc.), con perfiles bien definidos para acciones de marketing específicas.</p>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i> Código Fuente</a>
+                        <a href="#informe"><i class="fa-solid fa-file-pdf"></i> Informe Final</a>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
